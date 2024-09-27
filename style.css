@@ -1,0 +1,47 @@
+#app {
+  padding: 80px;
+}
+.app-container {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: flex-start; /* Aligns content at the top */
+  padding-top: 20px; /* Adds padding at the top */
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 48%;
+  background-color: black;
+}
+
+.app-container > .eightball {
+  color: black;
+  font-size: 80px;
+  background-color: white;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.random-answer {
+  margin: 20px;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+button {
+  padding: 15px 25px;
+  border-radius: 20px;
+  background-color: #6c33ab;
+  color: antiquewhite;
+  font-size: larger;
+  transition: 2ms ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: antiquewhite;
+  color: #6c33ab;
+}
